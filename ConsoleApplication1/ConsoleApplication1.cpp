@@ -6,7 +6,6 @@ using namespace std;
 void task1() {
 
 	cout << "Task #1 " << endl;
-
 	cout << "Enter number one " << endl;
 
 	int numOne;
@@ -31,8 +30,8 @@ void task2() {
 
 	cout << "Task #2 " << endl;
 
-	const int NUMONE = 1;
-	const int NUMTWO = 11;
+	const int NUMONE = 5;
+	const int NUMTWO = 10;
 
 	if (NUMONE + NUMTWO == 10 || (NUMONE == 10 && NUMTWO == 10)) {
 		cout << "true" << endl;
@@ -57,7 +56,6 @@ void task4() {
 
 	int number;
 	cout << "Enter the year " << endl;
-	
 	cin >> number;
 
 	if (number % 2 == 1) {
